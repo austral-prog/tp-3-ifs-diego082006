@@ -20,7 +20,5 @@ def triangle():
     c = float(input())
     if a + b > c and a + c > b and b + c > a:
         print("Los lados forman un triangulo valido")
-    elif a + b == c or a + c == b or b + c == a:
-        print("Los lados forman una linea recta, pero no un triangulo")
     else:
         print("Los lados no forman un triangulo valido")
