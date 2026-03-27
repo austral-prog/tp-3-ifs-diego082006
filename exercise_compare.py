@@ -18,7 +18,7 @@ def compare():
     numero_entero1 = int(input())
     numero_entero2 = int(input())
     if numero_entero1 == numero_entero2:
-        print(f"{numero_entero1} es igual que {numero_entero2}")
+        print(f"{numero_entero1} es igual a {numero_entero2}")
     elif numero_entero1 > numero_entero2:
         print(f"{numero_entero1} es mayor que {numero_entero2}")
     else:
